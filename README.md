@@ -1,9 +1,10 @@
-# GC Content + Sliding Window (Publishable Mini-Project)
+# GC Content + Sliding Window 
 
 **Updated:** 2025-08-26
 
-## Goal
-Compute overall GC% and a sliding-window GC profile for a DNA sequence (FASTA), then save figures and tables that others can reuse.
+A simple Jupyter notebook that computes **overall GC%** and **sliding-window GC profiles** from any FASTA file — a staple in **genome QC** and exploratory analysis.
+
+Use it as a template to learn bioinformatics while producing **publishable** figures and CSVs.
 
 ## Methods (brief)
 - **Overall GC%** = (count of G or C) / (count of A/C/G/T) × 100.
