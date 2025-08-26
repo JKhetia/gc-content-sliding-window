@@ -14,11 +14,11 @@ Compute overall GC% and a sliding-window GC profile for a DNA sequence (FASTA), 
 
 GC% profile:
 
-![GC profile](figures/gc_profile.png)
+![GC profile](gc_profile.png)
 
 Overall GC% bar:
 
-![Overall GC](figures/gc_overall.png)
+![Overall GC](gc_overall.png)
 
 First few windows:
 
