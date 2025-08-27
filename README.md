@@ -48,27 +48,27 @@ The notebooks are **beginner-friendly** and designed to be adapted to any FASTA 
 
 ### Toy demo (synthetic DNA)
 - **GC% profile:**  
-  ![GC profile (demo)](figures/gc_profile.png)
+  ![GC profile (demo)](gc_profile.png)
 - **Overall GC:**  
-  ![Overall GC (demo)](figures/gc_overall.png)
+  ![Overall GC (demo)](gc_overall.png)
 
 ### Human mtDNA (NC_012920.1)
 - **GC% profile:**  
-  ![GC profile — mtDNA](results/mtDNA/gc_profile.png)
+  ![GC profile — mtDNA](gc_profile_mtdna.png)
 - **Overall GC:**  
-  ![Overall GC — mtDNA](results/mtDNA/gc_overall.png)
+  ![Overall GC — mtDNA](gc_overall_mtdna.png)
 - **Tables:**  
-  - All windows: [`results/mtDNA/gc_windows.csv`](results/mtDNA/gc_windows.csv)  
-  - Extremes (top/bottom 10): [`results/mtDNA/gc_extremes.csv`](results/mtDNA/gc_extremes.csv)
+  - All windows: [`results/mtDNA/gc_windows.csv`](gc_windows_mtdna.csv)  
+  - Extremes (top/bottom 10): [`results/mtDNA/gc_extremes.csv`](gc_extremes_mtdna.csv)
 
 ### *E. coli* K-12 MG1655 (NC_000913.3)
 - **GC% profile:**  
-  ![GC profile — E. coli](results/ecoli/gc_profile.png)
+  ![GC profile — E. coli](gc_profile_ecoli.png)
 - **Overall GC:**  
-  ![Overall GC — E. coli](results/ecoli/gc_overall.png)
+  ![Overall GC — E. coli](gc_overall_ecoli.png)
 - **Tables:**  
-  - All windows: [`results/ecoli/gc_windows.csv`](results/ecoli/gc_windows.csv)  
-  - Extremes (top/bottom 10): [`results/ecoli/gc_extremes.csv`](results/ecoli/gc_extremes.csv)
+  - All windows: [`results/ecoli/gc_windows.csv`](gc_windows_ecoli.csv)  
+  - Extremes (top/bottom 10): [`results/ecoli/gc_extremes.csv`](gc_extremes_ecoli.csv)
 
 ---
 
