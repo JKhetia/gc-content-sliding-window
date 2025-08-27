@@ -1,10 +1,9 @@
-# GC Content + Sliding Window 
+# GC Content + Sliding Window (Publishable Mini-Project)
 
 **Updated:** 2025-08-26
 
-A simple Jupyter notebook that computes **overall GC%** and **sliding-window GC profiles** from any FASTA file — a staple in **genome QC** and exploratory analysis.
-
-Use it as a template to learn bioinformatics while producing **publishable** figures and CSVs.
+## Goal
+Compute overall GC% and a sliding-window GC profile for a DNA sequence (FASTA), then save figures and tables that others can reuse.
 
 ## Methods (brief)
 - **Overall GC%** = (count of G or C) / (count of A/C/G/T) × 100.
@@ -15,11 +14,11 @@ Use it as a template to learn bioinformatics while producing **publishable** fig
 
 GC% profile:
 
-![GC profile](gc_profile.png)
+![GC profile](figures/gc_profile.png)
 
 Overall GC% bar:
 
-![Overall GC](gc_overall.png)
+![Overall GC](figures/gc_overall.png)
 
 First few windows:
 
@@ -31,6 +30,18 @@ First few windows:
 | 300 | 500 | 200 | 50.0 |
 | 400 | 600 | 200 | 50.0 |
 
-## Next steps
-- Swap in a real FASTA (human mtDNA or a bacterium), tweak `window`/`step`, and re-run.
-- Cite the genome source in this README.
+
+## Next Steps
+We extended the analysis by running the pipeline on **real FASTA sequences**:
+- Human mitochondrial genome (rCRS, NC_012920.1)
+- *Escherichia coli* K-12 MG1655 (NC_000913.3)
+
+This produced updated GC% profiles and tables in the `results/` folder.
+
+## Data Sources
+- **Human mitochondrion (rCRS)** — NCBI RefSeq **NC_012920.1**  
+  FASTA viewer: https://www.ncbi.nlm.nih.gov/sviewer/viewer.fcgi?id=NC_012920.1&db=nuccore&report=fasta
+- **Escherichia coli K-12 substr. MG1655** — NCBI RefSeq **NC_000913.3**  
+  FASTA viewer: https://www.ncbi.nlm.nih.gov/sviewer/viewer.fcgi?id=NC_000913.3&db=nuccore&report=fasta
+
+*This section was appended on 2025-08-27 to cite sequence sources used in analyses.*
