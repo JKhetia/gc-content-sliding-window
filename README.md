@@ -48,9 +48,9 @@ The notebooks are **beginner-friendly** and designed to be adapted to any FASTA 
 
 ### Toy demo (synthetic DNA)
 - **GC% profile:**  
-  ![GC profile (demo)](gc_profile.png)
+  ![GC profile (demo)](gc_profile_example_sequence.png)
 - **Overall GC:**  
-  ![Overall GC (demo)](gc_overall.png)
+  ![Overall GC (demo)](gc_overall_example_sequence.png)
 
 ### Human mtDNA (NC_012920.1)
 - **GC% profile:**  
