@@ -75,7 +75,7 @@ The notebooks are **beginner-friendly** and designed to be adapted to any FASTA 
 ## Reproduce / Use on your own FASTA
 
 1. Open the notebooks in **Jupyter** (Anaconda → Jupyter).  
-2. In the “real FASTA” notebook, set `fasta_path` to your `.fasta/.fa/.fna`.  
+2. In the “analyse_real_FASTA” notebook, set `fasta_path` to your `.fasta/.fa/.fna`.  
 3. Choose `window`/`step` (smaller for short genomes; larger for long chromosomes).  
 4. Run all cells. Outputs (PNGs/CSVs) will be written under `results/`.
 
