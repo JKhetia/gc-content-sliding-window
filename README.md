@@ -2,9 +2,9 @@
 
 A simple, reproducible **Jupyter** workflow to compute **overall GC%** and **sliding-window GC profiles** from any DNA **FASTA** file. GC% analysis is a foundational genomics **quality-control** step: it helps spot compositional biases, sequencing artefacts, and GC-rich/poor regions that often map to functional elements.
 
-- 📓 Notebooks: toy demo + real FASTA analyses  
-- 📊 Outputs: publication-ready **figures (PNG)** and **tables (CSV)**  
-- 🧪 Inputs: any **.fasta / .fa / .fna** sequence
+- Notebooks: toy demo + real FASTA analyses  
+- Outputs: publication-ready **figures (PNG)** and **tables (CSV)**  
+- Inputs: any **.fasta / .fa / .fna** sequence
 
 ---
 
